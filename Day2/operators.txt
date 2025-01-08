@@ -1,0 +1,39 @@
+OPERATORS:
+It is a predefined symbol used to perform specific operation.
+-->Arithmetic operator(=,+,-,*,/,++,--)
+Increment:
+post-increment
+let a = 10;
+console.log(a) //10
+console.log(a++) //10
+console.log(a++) //11
+pre-increment
+let b = 2
+console.log(b) //20
+console.log(++b) //21
+post-decrement
+let c = 10;
+console.log(c) //10
+console.log(c--) //10
+console.log(c--) //9
+pre-decrement
+let d = 10;
+console.log(d) //10
+console.log(--d) //9
+-->Assignment operator(+=,-=,*=,/=,%=)(short-hand)
+let m = 10;
+console.log(m = m + 10) //20
+console.log(m += 10) //20
+-->Logical operator(AND(&&), OR(||), NOT(!)
+-->Relational operator(<, <=, >, >=, ==, ===, !=) 
+Difference between equalsTo and strictlyEqualsTo
+console.log(5 == 5) //True
+console.log(5 == "5") //True
+console.log(5 === 5) //True
+console.log(5 === "5") //False
+-->Ternary operator
+.three operands:
+syntax:-
+(condition) ? true-statement : false-statement
+
+

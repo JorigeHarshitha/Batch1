@@ -1,0 +1,50 @@
+Functions In JavaScript
+-->Functions are first citizen in JavaScript
+-->Functions are object in JavaScript
+Types of Functions in JavaScript:
+-->Function Declaration Statement or Pure Function or Named Function
+-->Function Expression
+-->Higher Order Function, callback function
+-->Arrow Function
+-->Nested Function
+-->IIFE(Immediate Invoking Function Expression)
+
+Function Declaration Statement:
+-->it is a set of instrctions or a block of code used to perform a specific task.
+Syntax:-
+        keyword
+            |    identifier
+            |       |      identifier
+            |       |         |
+        function fun-name (parameters, ....)
+        {
+        ---local-scope
+        }
+        fun-name(arguments, ....)
+                    |data/values(data-types)
+return-keyword
+-->will stop execution of the function and control will be given to caller
+-->hoisting is possible(we can call the function berfore fun-declaration)
+-->The main purpose of using Functions in JavaScript is code reusability,write once call it multiple times.
+*create a function it should perform arthmetic operation for two numbers input should be taken from the enduser.
+Typecasting convert one type of data-type into another data-type by a JavaScript engine is called Implicit.
+Typecasting convert one type of data-type into another data-type by a programmer is called Explicit.
+create a function to find largest of 3 numbers and the input should be given from the enduser.
+
+Function Expression:
+-->Assigning function as a value to one variable is called function expression.
+-->It is used to perform specific task.
+-->A function without any name is called an anonomous function.
+let b = 200;
+console.log(b); //200
+
+function demo()
+{
+    console.log("hello")
+}
+demo() //hello
+ 
+let c = function()
+{
+    console.log("hello")
+}
