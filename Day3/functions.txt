@@ -35,16 +35,14 @@ Function Expression:
 -->Assigning function as a value to one variable is called function expression.
 -->It is used to perform specific task.
 -->A function without any name is called an anonomous function.
-let b = 200;
-console.log(b); //200
+create a funtion expression to perform arthmetic operation for three numbers and find the largest number amoung three numbers and the input should be taken from the end user.
 
-function demo()
-{
-    console.log("hello")
-}
-demo() //hello
- 
-let c = function()
-{
-    console.log("hello")
-}
+Function Programming:
+-->Higher Order Function and callback Function
+-->It is used to perform generic task(multiple task).
+-->It can be created using function declaration Statement or function expression or arrow function.
+Higher Order Function(HOF):
+-->A function which accepts another function as an argument is called Higher Order Function.
+callback Function:
+-->A function which passed as an argument to HOF is called as callback Function
+-->with the help of HOF and COF we can perform multiple tasks.

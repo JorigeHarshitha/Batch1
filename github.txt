@@ -9,7 +9,7 @@ Steps for creating GitHub:
   Command: git config --global user.name "JorigeHarshitha"
            git config --global user.gmail "2211cs010239@mallareddyuniversity.ac.in"
 *Add remote URL to local repo
-  Command: git remote add origin https://github.com/shravya2027/batch1.git
+  Command: git remote add origin https://github.com/JorigeHarshitha/Batch1.git
     Command: git add .
              git commit -m "my new project"
 *to push to github
